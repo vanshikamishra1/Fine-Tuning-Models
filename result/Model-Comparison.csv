@@ -1,0 +1,6 @@
+
+Method,	Perplexity (eval)	,Accuracy (eval %),	Training Loss	,Training Time (min),	Comments
+Full	,1.17,	15.50	,0.23	,~104,	Best perplexity, stable loss
+LoRA	,2.65,	17.00	,1.56	,~71,	Best accuracy, efficient
+QLoRA	,2.67,	12.00	,1.56	,~72	,Close to LoRA, efficient
+BitFit	,3.28,	0.00	,1.71	,~73	,Fastest, but poor accuracy
